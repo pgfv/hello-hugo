@@ -28,4 +28,4 @@ steps:
     chmod +x firebase
 
     # Deploy site
-    ./firebase deploy --project=$PROJECT_ID --only=hosting
+    ./firebase deploy --project=hugo-ultimate --only=hosting
